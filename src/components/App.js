@@ -7,8 +7,12 @@ const { counter } = state;
   return (
     <div id="main">
          <span id="counter">{counter}</span>
-         <button id="increment-btn" onClick={() => dispatch({ type:'INCREMENT' })}>+</button>
-         <button id="decrement-btn" onClick={() => dispatch({ type:'DECREMENT' })}>-</button>
+         <button id="increment-btn" onClick={() => dispatch({ type:'INCREMENT' })}>
+           +
+         </button>
+         <button id="decrement-btn" onClick={() => dispatch({ type:'DECREMENT' })}>
+           -
+         </button>
     </div>
   )
 }
